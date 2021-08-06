@@ -1,0 +1,25 @@
+{
+  "name": "@aldabil/next-progress",
+  "version": "0.0.1",
+  "description": "Probably the easiest progress bar/skeleton for Next.js",
+  "main": "dist/index.js",
+  "files": [
+    "/dist/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./dist",
+    "tsc": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldabil21/next-progress.git"
+  },
+  "keywords": [
+    "Nextjs",
+    "progress",
+    "loader",
+    "skeleton"
+  ],
+  "author": "Aldabil",
+  "license": "MIT"
+}
