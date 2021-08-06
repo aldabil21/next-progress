@@ -6,7 +6,7 @@
 ## Install
 
 ```jsx
-npm i @aldabil/nextjs-progress
+npm i @aldabil/next-progress
 ```
 
 ## Usage
@@ -15,7 +15,8 @@ In your custom `_app.tsx|js`.
 
 ```jsx
 //...some impotrs...
-import Progress from "@aldabil/nextjs-progress";
+import { Router } from "next/router";
+import Progress from "@aldabil/next-progress";
 
 //Progress setup
 Progress.configure({
@@ -35,6 +36,12 @@ const MyApp = (props: MyAppProps) => {
 ```
 
 And that's it.
+
+Bar [Sandbox](https://codesandbox.io/s/bar-type-dzwgd)
+[![Bar type](https://aldabil.me/projects/next-progress/bar-type.gif "Bar Type")](https://aldabil.me/projects/next-progress/bar-type.gif)
+
+SVG [Sandbox](https://codesandbox.io/s/fullpage-type-w3ri2)
+[![Bar type](https://aldabil.me/projects/next-progress/fullpage-type.gif "Bar Type")](https://aldabil.me/projects/next-progress/fullpage-type.gif)
 
 #### Options
 
