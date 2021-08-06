@@ -1,6 +1,6 @@
 {
   "name": "@aldabil/next-progress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Probably the easiest progress bar/skeleton for Next.js",
   "main": "dist/index.js",
   "files": [
