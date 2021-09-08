@@ -88,7 +88,7 @@ class Progress {
           position: fixed;
           width: 100%;
           height: 100%;
-          z-index: 1500;
+          z-index: 9000;
           opacity: 0;
           display: flex;
           align-items: center;
@@ -157,8 +157,9 @@ class Progress {
         position: fixed;
         width: 0;
         opacity:0;
+        top:0;
         left:0;
-        z-index: 1500;
+        z-index: 9000;
         transition: all 500ms ease-in-out;
         border-radius: 0 2px 2px 0;
         box-shadow: 0 1px 3px #696969;
