@@ -37,10 +37,14 @@ const MyApp = (props: MyAppProps) => {
 
 And that's it.
 
+## Demo
+
 Bar [Sandbox](https://codesandbox.io/s/bar-type-dzwgd)
+<br />
 [![Bar type](https://aldabil.me/projects/next-progress/bar-type.gif "Bar Type")](https://aldabil.me/projects/next-progress/bar-type.gif)
 
 SVG [Sandbox](https://codesandbox.io/s/fullpage-type-w3ri2)
+<br />
 [![Bar type](https://aldabil.me/projects/next-progress/fullpage-type.gif "Bar Type")](https://aldabil.me/projects/next-progress/fullpage-type.gif)
 
 #### Options
